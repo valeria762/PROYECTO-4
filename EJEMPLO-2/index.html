@@ -6,142 +6,31 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Mi Red Social</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Perfil</a>
-              </li>
-        
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
+    <div class="user-logged">
+        <figure>
+          <img src="img/fondo.png" alt="cover image" class="img-general">
+        </figure>
+        <img src="img/perfil.jpg" class="photo">
+        <div class="user-data">
+          <div class="container-info">
+            <div class="name">
+              <p id="userName">VALERIA MENDEZ</p>
               
-              <button type="button" class="btn  position-relative">
-                Notificaciones
-                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                   99+
-                 <span class="visually-hidden">unread messages</span>
-                 </span>
-                </button>
-
-                <a class="nav-link" href="#">Inbox</a>
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                    <span class="visually-hidden">Mensajes no leidos</span>
-                </span>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Cerrar sesión</a>
-              </li>
-
-            </ul>
-            
+          <img id="editName" src="./img/edit.png" class="edit">
+          <p id="saveName" class="hide iconSave"><i class="far fa-save" aria-hidden="true"></i></p>
+          
+            </div>
+            <div class="description">
+              <p id="userAbout">&lt;/&gt; Developer</p>
+              
+          <img id="editAbout" src="./img/edit.png" class="edit">
+          <p id="saveAbout" class="hide iconSave"><i class="far fa-save" aria-hidden="true"></i></p>
+          
+            </div>
           </div>
-        </div>
-      </nav>
-    <div class="container">
-        <div class="main-content">
-            <aside class="sidebar">
-                <div class="user-logged">
-                    <figure>
-                      <img src="img/fondo.png" alt="cover image" class="img-general">
-                    </figure>
-                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjWv9yyWZ3bUJ13gfXaQKaRLEfgfEbiiIBg9rH_bzQUs_8YgBLnMWIEyIDoNPLzXBWy3yqw_-V-RSv8rgXI6sD4fkohMp0PNXzKNHMz33VzFbeS1VNJh7XlUIpjmFLm2KjbGVENeYeApsNsRa0zYdy4PAc-Um1pC4BKXnR--ItT51TASx8-HINq_O20hiT3tY2W5tNI_ypDD2-TGt41Yw4JqlphjLABax1J3DN_f-mtMHkmXMp025quKISaXP3Ynrdwh6vfMg7v0YDAYd9vg_6EE7cfuTpH6e1SUIWoSlFgqChHOtNZywNONU31A55VKvHZwYhggg16hvryogSMGGb-HwQS7mrZOKyEmqno1t7FZ3A5yDjnaW6wllssJ4Ccr2qeHnf2Du6Ch1UNMGVGpBvGvmWIfAsrXIfY90a68dWT_h2F2Vi5IeZQ_wKdXq7mpH5QuqkzPhnaLFpVdaBZyxVbHPjBRAFKgNLEQ3vkvWDXiaaRnMWuXLlbnoOJVydG6U1JDGSEEmw-Uxk1c4ThRvR9qlX3izJRiqiZHAK7YHT9VxGe9RX3_ifoEw8bnAUZscanh2qiLUh12xFbx6kxjNe2vboqQLQsN7n_UKe4U6hgYb7aQAgKnsJG5GqmhS6JDrw0OXspZlMl5TqMlPIbrSZdnTu4Z2Xk5sgwxxlRtRQBT2DvUuWQWIiO70iTHK-x3AbWaAQA10BHoHWfDv8ByrRSv6X1WDXwbp8K7y0M1ITBqionqNJjLr8sCPP3W_xjo0_zFrTc5Wj1eQxsANHDGSvcophYQMv5n2D-c2dH9R-0n7TMCQooIAKIPSMN_LZOPh7Bo7H43kpb2XgCxIDjWdf5SK82Nt3BjsjzuPEo6G05Usdcjfq5iB8Se_D3FNTnUgrFpfRpUpOPfLthYctr9tfOqq4O3N1UM3hz-y4Np_tfOizX0vWpjqijD02sZcRaNclaFC4Ru8NiyEBtkn07fGE8NwOPX=s96-c" class="photo">
-                    <div class="user-data">
-                      <div class="container-info">
-                        <div class="name">
-                          <p id="userName">VALERIA MENDEZ</p>
-                          
-                      <img id="editName" src="./img/edit.png" class="edit">
-                      <p id="saveName" class="hide iconSave"><i class="far fa-save" aria-hidden="true"></i></p>
-                      
-                        </div>
-                        <div class="description">
-                          <p id="userAbout">&lt;/&gt; Developer</p>
-                          
-                      <img id="editAbout" src="./img/edit.png" class="edit">
-                      <p id="saveAbout" class="hide iconSave"><i class="far fa-save" aria-hidden="true"></i></p>
-                      
-                        </div>
-                      </div>
-                    </div></div>
-            </aside>
-
-            <main>
-                <div class="create-post">
-                    <textarea id="placeholder" placeholder="¿Qué estás pensando?"></textarea>
-                    <div class="container2">
-                        <div class="container-functions">
-                          <div class="camera-privacity">
-                          <input type="file" id="photoPost" class="hide" accept="image/*">
-                          <label for="photoPost"><img src="img/iconPhoto.png" class="camera"></label>        
-                            <div class="privacidad">
-                              <select id="privacyPostArea">
-                                <option value="1">🌎 Público</option>
-                                <option value="2">🔒 Solo yo </option>
-                              </select>
-                            </div>
-                          </div>
-                          <button id="btnSharePost"> Compartir</button>
-                        </div>
-                    
-                    </div>
-                    </div>
-                    
-                <div class="posts">
-                    <div class="title-new-post">
-                      <img src="https://lh3.googleusercontent.com/a/ACg8ocKO_D5w6QwaikIcUy-M_19MMnBzgpeSJxzbZtnR2Jo7jKidMNxv=s96-c" alt="" class="user-foto">
-                        <div>
-                           <h4>LUZ</h4>
-                            <div class="time">
-                              <p>30 oct 2024 6:36 p.&nbsp;m.
-                              <i class="fi fi-rr-world"></i>
-                              </p>
-                             </div>
-                        </div>
-                    </div>
-                    <div class="body-post">
-    
-                        <div class="text-post"> 
-                              <p id="textPost-7lWUTzZ1fAKDaVLAByG5" class="textPost">juegos</p>
-                              <div class="save hide" idpost="7lWUTzZ1fAKDaVLAByG5"><i class="far fa-save" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <div class="like-comment">
-                          <div>
-                            <svg id="icon" class="iconLike" fill="#5C5C5C" height="26" viewBox="0 0 48 48" width="26">
-                              <path clip-rule="evenodd" d="M34.3 3.5C27.2 3.5 24 8.8 24 8.8s-3.2-5.3-10.3-5.3C6.4 3.5.5 9.9.5 17.8s6.1 12.4 12.2 17.8c9.2 8.2 9.8 8.9 11.3 8.9s2.1-.7 11.3-8.9c6.2-5.5 12.2-10 12.2-17.8 0-7.9-5.9-14.3-13.2-14.3zm-1 29.8c-5.4 4.8-8.3 7.5-9.3 8.1-1-.7-4.6-3.9-9.3-8.1-5.5-4.9-11.2-9-11.2-15.6 0-6.2 4.6-11.3 10.2-11.3 4.1 0 6.3 2 7.9 4.2 3.6 5.1 1.2 5.1 4.8 0 1.6-2.2 3.8-4.2 7.9-4.2 5.6 0 10.2 5.1 10.2 11.3 0 6.7-5.7 10.8-11.2 15.6z" fill-rule="eveodd"></path>
-                              <path clip-rule="evenodd" d="M35.3 35.6c-9.2 8.2-9.8 8.9-11.3 8.9s-2.1-.7-11.3-8.9C6.5 30.1.5 25.6.5 17.8.5 9.9 6.4 3.5 13.7 3.5 20.8 3.5 24 8.8 24 8.8s3.2-5.3 10.3-5.3c7.3 0 13.2 6.4 13.2 14.3 0 7.8-6.1 12.3-12.2 17.8z" fill-rule="evenodd"></path>
-                           </svg>
-                            <img src="./img/comentario.png" alt="ícono comentarios" class="icon-comment">
-                          </div>
-                          <p>0 Me Gusta <span class="num numComments-7lWUTzZ1fAKDaVLAByG5">0 Comentarios</span></p>
-                        </div> 
-                    </div>
-                   
-                </div>
-            </main>
-        </div>
-    </div>
+        </div></div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
