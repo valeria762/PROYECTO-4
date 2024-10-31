@@ -116,6 +116,18 @@ main {
     cursor: pointer;
 }*/
 
+.create-post #btnSharePost {
+    width: 110px;
+    height: 35px;
+    background: linear-gradient(280.72deg, rgba(186, 12, 223, 0.30) 4.97%, rgba(6, 242, 193, 0.30) 98.41%);
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+
 .container2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -165,17 +177,6 @@ h4 {
     /* max-width: 100vw; */
 }
 
-.create-post #btnSharePost {
-    width: 110px;
-    height: 35px;
-    background: linear-gradient(280.72deg, rgba(186, 12, 223, 0.30) 4.97%, rgba(6, 242, 193, 0.30) 98.41%);
-    border-radius: 20px;
-    border: none;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    outline: none;
-}
 .text-post {
     display: flex;
     flex-direction: row;
@@ -352,4 +353,40 @@ select {
     -webkit-rtl-ordering: logical;
     cursor: default;
     white-space: pre;
+}
+
+.general-information {
+    position: sticky;
+    top: 89.69px;
+    width: 600px;
+    margin: 10px 20px auto 50px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.user-logged {
+    width: 100%;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.user-logged {
+    width: 100%;
+    text-align: center;
+}
+
+.photo {
+    width: 10em;
+    height: 10em;
+    margin-top: -5em;
+    border-radius: 200px;
+    border: solid 5px #ffffff;
 }
