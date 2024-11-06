@@ -9,7 +9,7 @@
 
 body{
     background-color: #c9d6ff;
-    background: linear-gradient(to right, #dd4ad1, #a4b4e9);
+    background: linear-gradient(to right, #1FEB74, #4A90E2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,8 @@ body{
 .container{
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 0 10px 19px rgb(10, 84, 131);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    /*box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);*/ 
     position: relative;
     overflow: hidden;
     width: 768px;
@@ -40,14 +41,15 @@ body{
 }
 
 .container a{
-    color: #0e0b0b;
+    color: #333;
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
 
 .container button{
-    background-color: #1ecbd1;
+    /*background-color: #512da8;*/
+    background-color: #328aee;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -160,10 +162,13 @@ body{
     border-radius: 0 150px 100px 0;
 }
 
+.titulo{
+    color:#4e4352c2;
+}
 .toggle{
-    background-color: #b095f0;
+    background-color: #512da8;
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #43e6a2);
+    background: linear-gradient(to right, #9526A8, #5c6bc0);
     color: #fff;
     position: relative;
     left: -100%;
